@@ -1,6 +1,6 @@
 namespace OpenAPI2
 {
-    public class MyOpenPolyEnvelopeData
+    public class OpenPolyData
     {
         public int? Id { get; set; }
         public string? Name { get; set; }
