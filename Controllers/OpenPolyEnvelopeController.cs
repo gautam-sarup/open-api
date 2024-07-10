@@ -37,6 +37,7 @@ namespace OpenAPI2.Controllers
                     if (response.IsSuccessStatusCode)
                     {
                         //TODO: Parse and convert to JSON using the given OpenAPI
+                        Stream xmlStream = response.Content.ReadAsStream();
                     }
                 }
 
