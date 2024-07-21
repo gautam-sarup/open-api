@@ -85,14 +85,6 @@ namespace OpenAPI2.Controllers
             return xmlDocument;
         }
 
-        XmlDocument MakeDataObject(string xml)
-        {
-            XmlDocument xmlDocument = new XmlDocument();
-            xmlDocument.LoadXml(xml);
-
-            return xmlDocument;
-        }
-
         string BuildInnerServiceAuthority()
         {
             const string AUTHORITY = "https://raw.githubusercontent.com/";
